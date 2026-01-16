@@ -47,7 +47,7 @@ const scriptsInEvents = {
 		     }
 	},
 
-	async EventSheet1_Event2_Act2(runtime, localVars)
+	async EventSheet1_Event8_Act1(runtime, localVars)
 	{
 		if (window.Telegram && Telegram.WebApp) {
 		       const user = Telegram.WebApp.initDataUnsafe?.user;

@@ -15,14 +15,15 @@ self.C3_GetObjectRefTable = function () {
 		C3.JavaScriptInEvents.EventSheet1_Event1_Act4,
 		C3.Plugins.AJAX.Acts.Request,
 		C3.JavaScriptInEvents.EventSheet1_Event2_Act1,
-		C3.JavaScriptInEvents.EventSheet1_Event2_Act2,
 		C3.Plugins.AJAX.Cnds.OnComplete,
 		C3.Plugins.AJAX.Exps.LastData,
 		C3.Plugins.System.Exps.tokenat,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
 		C3.Plugins.System.Cnds.IsGroupActive,
 		C3.Plugins.System.Cnds.CompareVar,
-		C3.Plugins.SVGPicture.Acts.SetDefaultColor
+		C3.Plugins.SVGPicture.Acts.SetDefaultColor,
+		C3.Plugins.System.Cnds.Every,
+		C3.JavaScriptInEvents.EventSheet1_Event8_Act1
 	];
 };
 self.C3_JsPropNameTable = [
