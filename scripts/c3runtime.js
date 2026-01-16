@@ -1320,7 +1320,12 @@ self.C3_ExpressionFuncs = [
 		() => "Color of Week",
 		() => "red",
 		() => -571204528704511,
-		() => 1,
+		() => 0.1,
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
+			return () => f0("window.c3_tg_ready");
+		},
+		() => "true",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0("window.c3_username");

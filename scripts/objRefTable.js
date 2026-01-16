@@ -23,7 +23,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.CompareVar,
 		C3.Plugins.SVGPicture.Acts.SetDefaultColor,
 		C3.Plugins.System.Cnds.Every,
-		C3.JavaScriptInEvents.EventSheet1_Event8_Act1
+		C3.Plugins.System.Cnds.Compare,
+		C3.JavaScriptInEvents.EventSheet1_Event9_Act1,
+		C3.Plugins.System.Cnds.Else
 	];
 };
 self.C3_JsPropNameTable = [
