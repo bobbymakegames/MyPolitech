@@ -1303,6 +1303,10 @@ self.C3_ExpressionFuncs = [
 		() => "https://docs.google.com/spreadsheets/d/e/2PACX-1vQQfVM07Dq-KiiJ3aUE20L7o6DcGw91QbFFSe25IimYca7LyrvjClQruJV795qJQNJbH98NUvZwxkO6/pub?gid=0&single=true&output=csv",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
+			return () => f0("window.c3_username");
+		},
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0();
 		},
 		p => {

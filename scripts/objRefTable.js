@@ -37,8 +37,7 @@ self.C3_JsPropNameTable = [
 	{CurrentDateStr: 0},
 	{Color: 0},
 	{CSVData: 0},
-	{NamesList: 0},
-	{Username: 0}
+	{NamesList: 0}
 ];
 
 self.InstanceType = {
