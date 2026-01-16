@@ -2,7 +2,7 @@
 
 const scriptsInEvents = {
 
-	async EventSheet1_Event1_Act1(runtime, localVars)
+	async EventSheet1_Event2_Act1(runtime, localVars)
 	{
 		const now = new Date();
 		const day = String(now.getDate()).padStart(2, '0');
@@ -10,7 +10,7 @@ const scriptsInEvents = {
 		window.c3_date_result = day + '.' + month;
 	},
 
-	async EventSheet1_Event1_Act4(runtime, localVars)
+	async EventSheet1_Event2_Act4(runtime, localVars)
 	{
 		     // Начало отсчёта: понедельник 19 января 2026, 00:00:00
 		     const startDate = new Date(2026, 0, 19); // Месяцы в JS: 0=янв, 1=фев...
@@ -33,7 +33,7 @@ const scriptsInEvents = {
 		     }
 	},
 
-	async EventSheet1_Event2_Act1(runtime, localVars)
+	async EventSheet1_Event3_Act1(runtime, localVars)
 	{
 		if (!window.Telegram) {
 		       var script = document.createElement('script');
@@ -47,7 +47,7 @@ const scriptsInEvents = {
 		     }
 	},
 
-	async EventSheet1_Event8_Act1(runtime, localVars)
+	async EventSheet1_Event6_Act1(runtime, localVars)
 	{
 		if (window.Telegram && Telegram.WebApp) {
 		       const user = Telegram.WebApp.initDataUnsafe?.user;
