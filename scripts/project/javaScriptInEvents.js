@@ -33,7 +33,21 @@ const scriptsInEvents = {
 		     }
 	},
 
-	async EventSheet1_Event1_Act7(runtime, localVars)
+	async EventSheet1_Event2_Act1(runtime, localVars)
+	{
+		if (!window.Telegram) {
+		       var script = document.createElement('script');
+		       script.src = 'https://telegram.org/js/telegram-web-app.js';
+		       script.onload = function() {
+		         window.c3_tg_ready = true;
+		       };
+		       document.head.appendChild(script);
+		     } else {
+		       window.c3_tg_ready = true;
+		     }
+	},
+
+	async EventSheet1_Event2_Act2(runtime, localVars)
 	{
 		if (window.Telegram && Telegram.WebApp) {
 		       const user = Telegram.WebApp.initDataUnsafe?.user;

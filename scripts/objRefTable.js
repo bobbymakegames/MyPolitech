@@ -3,6 +3,7 @@ self.C3_GetObjectRefTable = function () {
 	return [
 		C3.Plugins.Touch,
 		C3.Plugins.SVGPicture,
+		C3.Behaviors.Anchor,
 		C3.Plugins.Text,
 		C3.Plugins.Browser,
 		C3.Plugins.AJAX,
@@ -13,7 +14,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Acts.SetText,
 		C3.JavaScriptInEvents.EventSheet1_Event1_Act4,
 		C3.Plugins.AJAX.Acts.Request,
-		C3.JavaScriptInEvents.EventSheet1_Event1_Act7,
+		C3.JavaScriptInEvents.EventSheet1_Event2_Act1,
+		C3.JavaScriptInEvents.EventSheet1_Event2_Act2,
 		C3.Plugins.AJAX.Cnds.OnComplete,
 		C3.Plugins.AJAX.Exps.LastData,
 		C3.Plugins.System.Exps.tokenat,
@@ -25,6 +27,7 @@ self.C3_GetObjectRefTable = function () {
 };
 self.C3_JsPropNameTable = [
 	{Touch: 0},
+	{Anchor: 0},
 	{Plaseholder: 0},
 	{Elipse_UpL: 0},
 	{Elipse_UpR: 0},
