@@ -47,6 +47,14 @@ const scriptsInEvents = {
 		     }
 	},
 
+	async EventSheet1_Event4_Act1(runtime, localVars)
+	{
+		const now = new Date();
+		     const dayName = now.toLocaleDateString('ru-RU', { weekday: 'long' });
+		     // Приводим к нужному формату: с заглавной буквы (в ru-RU уже так)
+		     window.c3_day_name = dayName.charAt(0).toUpperCase() + dayName.slice(1);
+	},
+
 	async EventSheet1_Event8_Act1(runtime, localVars)
 	{
 		if (window.Telegram && Telegram.WebApp) {
@@ -59,14 +67,6 @@ const scriptsInEvents = {
 		     } else {
 		       window.c3_username = 'не в Telegram';
 		     }
-	},
-
-	async EventSheet1_Event4_Act1(runtime, localVars)
-	{
-		const now = new Date();
-		     const dayName = now.toLocaleDateString('ru-RU', { weekday: 'long' });
-		     // Приводим к нужному формату: с заглавной буквы (в ru-RU уже так)
-		     window.c3_day_name = dayName.charAt(0).toUpperCase() + dayName.slice(1);
 	}
 };
 
