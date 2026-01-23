@@ -55,7 +55,7 @@ const scriptsInEvents = {
 		     window.c3_day_name = dayName.charAt(0).toUpperCase() + dayName.slice(1);
 	},
 
-	async EventSheet1_Event12_Act1(runtime, localVars)
+	async EventSheet1_Event6_Act1(runtime, localVars)
 	{
 		if (window.Telegram && Telegram.WebApp) {
 		       const user = Telegram.WebApp.initDataUnsafe?.user;
